@@ -1,4 +1,7 @@
 # Book summarizer dataset
+
+Url: https://drive.google.com/file/d/1_VcbD0myufhWMaSyYBp73yjgf5OJFQB0/view?usp=sharing
+
 books_dataset.zip
 *  book_summaries.csv
       * "wiki_id",
