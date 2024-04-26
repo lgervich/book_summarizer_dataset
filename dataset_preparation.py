@@ -60,7 +60,7 @@ if __name__ == "__main__":
         "plot_summary"
 
     ])
-    df = df[(df['publish_date'] > '1800-01-01') & (df['publish_date'] < '1900-01-01')]
+    df = df[(df['publish_date'] > '1700-01-01') & (df['publish_date'] < '1950-01-01')]
     # df = df.head(n=1)
     parallel = Parallel(n_jobs=4, backend="loky")
     output = parallel(delayed(search_book)(author=df.iloc[i]["author"], title=df.iloc[i]["title"]) for i in tqdm(range(len(df))))
